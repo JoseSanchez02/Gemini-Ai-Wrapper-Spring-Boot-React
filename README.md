@@ -65,9 +65,10 @@ gcloud auth application-default login
 
 ## API Endpoints
 
-| Endpoint                                  | Method| Description                      |
+| Endpoint                                  | Method | Description                      |
+|-------------------------------------------|--------|----------------------------------|
+| `/gemini-ai-wrapper/v1/chat`              | POST   | Send a prompt to Gemini AI       |
+| `/gemini-ai-wrapper/v1/conversation/{id}` | GET    | Retrieve a specific conversation |
+| `/gemini-ai-wrapper/v1/conversation`      | GET    | Get all conversations            |
 
-| `/gemini-ai-wrapper/v1/chat`              | POST  | Send a prompt to Gemini AI       |
-| `/gemini-ai-wrapper/v1/conversation/{id}` | GET   | Retrieve a specific conversation |
-| `/gemini-ai-wrapper/v1/conversation`      | GET   | Get all conversations            |
 
