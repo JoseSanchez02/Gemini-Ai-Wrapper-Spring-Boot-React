@@ -38,9 +38,9 @@
 ### Backend Setup
 1. Clone this repository
 2. Configure your database connection in `application.properties`
-3. Set up Google Cloud credentials for Gemini API access,
- you must set atleast your project-id in `application.properties` (It is highly recommended to set the environment variable on your system.)
-to set your credentials, you can use
+3. Set up Google Cloud credentials for Gemini API access.
+   You must set at least your project-id in `application.properties` (it is highly recommended to set this as an environment variable on your system).
+   To set your credentials, you can use:
 ``` 
 gcloud auth application-default login
    ```
