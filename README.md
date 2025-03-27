@@ -44,7 +44,7 @@ to set your credentials, you can use
 ``` 
 gcloud auth application-default login
    ```
-4. Run the application using your favorite IDE (Example: Intellijj)
+4. Run the application using your favorite IDE (Example: IntelliJ)
 5. The app will be accessible at http://localhost:8080/swagger-ui/index.html#. 
 (to make fetch requests, use http://localhost:8080/)
 
